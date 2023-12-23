@@ -1,0 +1,13 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - testcases.TestCase_3
+    - testcases.TestNGAttributes
+    - testcases.TestCase1_Login2
+    - testcases.TestNGGrouping
+    - testcases.TestNGParameters
+    - testcases.TestCase1_Login
+    - .NewTest
+
